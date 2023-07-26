@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BILL</title>
+        <link rel="stylesheet" type="text/css" href="bill.css">
+        <script src="bill.js"></script>
+    </head>
+    <body>
+        <div class="d1">
+            <form>
+                <label for="qt">Quantity:</label>
+                <input type="number" placeholder="Enter Quantity from [1-4]" id="qt" required>
+                <br><br>
+                <label for="cd">Code:</label>
+                <input type="text" placeholder="Enter Code from [1-4]" id="cd" required>
+            </form>
+            <h2 id="pri">PRICE</h2>
+            <h2 id="tam">Total Amount</h2>
+            <h2 id="dis">Discount 5%</h2>
+            <h2 id="tap">Total Paid Amount</h2> 
+            <button onclick="billPrint()">BILL</button>
+            <br><br>
+        </div>
+    </body>
+</html>
